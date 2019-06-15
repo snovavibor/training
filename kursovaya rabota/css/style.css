@@ -1,0 +1,196 @@
+html,body
+{
+	font-size: 16px;
+	background:#F8F8F8;
+}
+header nav  a
+{
+	margin-right: 1.2em;
+}
+header nav.bg-light {
+  background-color: transparent!important;
+}
+header nav  a:hover
+{
+	color: orange!important;
+}
+header nav  a:last-child
+{
+	margin-right: 0;
+}
+.active
+{
+    color: orange!important;
+}
+.header-title
+{
+    padding: 20rem 0;
+
+    color: white;
+    background-image: url(../images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-title p,.header-title h2
+{
+	font-size: 4rem;
+}
+/*-----------------------------section info----------------------------*/
+.info
+{
+	padding: 10rem 0;
+}
+hr
+{
+	width: 10%;
+}
+/*----------------------------section service-----------------------------*/
+section.service
+{
+	background-color: #fff;
+	color: white;
+}
+.firstBlock
+{
+	color: black;
+}
+.darkBlock
+{
+	background-color: #303030;
+}
+.lightBlock
+{
+	background-color: #EC5425;
+}
+i.chain
+{
+	-webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
+/*-----------------------------section team --------------------------------*/
+.team
+{
+    padding: 6rem 0;
+
+    background-image: url(../images/team-bg.jpg);
+    background-position: center;
+		background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team hr
+{
+	background-color: #fff;
+}
+.card
+{
+	border: none;
+}
+.blockTeam
+{
+	margin-bottom: 8rem;
+}
+/*------------------ section portfolio ---------------------------------*/
+
+.aboutPortfolio
+{
+	margin-bottom: 4rem;
+}
+.card-deck img
+{
+	-webkit-filter: opacity(.5);
+	        filter: opacity(.5);
+}
+/*-------------------------------section price ---------------------------*/
+.price
+{
+    background-color: #fff;
+}
+.card-price
+{
+    border: none;
+    background-color: #ec5425;
+}
+
+.head-card p
+{
+    font-size: 2rem;
+    line-height: .8em;
+
+    border-bottom: 1px solid white;
+    background-color: #ec5425;
+}
+.head-card span
+{
+    font-size: .3em;
+    font-weight: normal;
+}
+.card-of-body
+{
+    background-color: #ec5425;
+}
+.card-of-body p
+{
+    padding: .5em 0;
+
+    text-transform: uppercase;
+
+    color: white;
+}
+.card-of-body > a
+{
+    border-radius: 0;
+}
+/*-------------------------section contact -----------------------------*/
+section.contacts
+{
+	background: url(../images/contact-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	background-size: cover;
+}
+section.contacts hr
+{
+	background: white;
+}
+section.contacts button
+{
+	background-color:  #ec5425;
+}
+.contacts input,button,textarea
+{
+	border:none;
+	border-radius: .2em;
+}
+footer
+{
+	background-color: #202020;
+	padding-top: 10rem;
+}
+footer i
+{
+	color:#ec5425;
+}
+footer a
+{
+	padding: 2em 1.7em 1.5em 1.7em;
+	border-radius: 50%;
+	background: white;
+}
+.icon-face
+{
+	padding: 1.95em 2em 1.6em 2em;
+}
+.line-heght
+{
+	line-height: 5rem;
+}
+.end-hyper
+{
+	padding: 0;
+	border-radius: 0;
+	color: #ec5425;
+	background: transparent;
+}
